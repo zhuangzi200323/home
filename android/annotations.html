@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AndroidAnnotations相关说明</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/github-light.css" media="screen">
+</head>
+<body>
+    <section class="main-content">
+        <h1>Android第三方注解框架AndroidAnnotations和Butter knife</h1>
+        <h3>一、AndroidAnnotations的配置</h3>
+        <div style="text-indent: 20px;">
+            <p>在module的build.gradle文件中，添加以下部分</p>
+            <p>dependencies {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;.....</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;annotationProcessor "org.androidannotations:androidannotations:4.3.1" //添加</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;compile "org.androidannotations:androidannotations-api:4.3.1" //添加</p>
+            <p>}</p>
+            <p>详见github: <a href="https://github.com/androidannotations/androidannotations">AndroidAnnotations</a></p>
+        </div>
+        <h3>二、Butter knife的配置</h3>
+        <div style="text-indent: 20px;">
+            <p>在module的build.gradle文件中，添加以下部分</p>
+            <p>dependencies {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;.....</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1' //添加</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;compile 'com.jakewharton:butterknife:8.8.1' //添加</p>
+            <p>}</p>
+            <p>详见github: <a href="https://github.com/JakeWharton/butterknife">Butter knife</a></p>
+        </div>
+    </section>
+</body>
+</html>
